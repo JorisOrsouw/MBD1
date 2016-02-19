@@ -1,12 +1,12 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
   <name>program</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+  <description>MBD1 opdrachten</description>
+  <author href="http://phonegap.com" email="support@phonegap.com">Joris van Orsouw</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
-  <preference name="fullscreen" value="true"/>
+  <preference name="fullscreen" value="false"/>
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
@@ -36,7 +36,8 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <icon src="icon.png"/>
+  <icon src="dbzicon.ico" />
+  <!-- <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
@@ -49,7 +50,7 @@
   <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
   <icon src="www/res/icon/webos/icon-64.png" gap:platform="webos"/>
   <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
-  <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
+  <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/> -->
   <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
